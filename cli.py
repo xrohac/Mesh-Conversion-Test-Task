@@ -5,7 +5,6 @@ from mesh_conversion import convert_obj_to_stl, visualize_stl
 def main():
     parser = argparse.ArgumentParser(description="Mesh Conversion and Visualization Tool")
 
-    # commands for conversion and visualization
     subparsers = parser.add_subparsers(dest="command")
 
     # command: convert

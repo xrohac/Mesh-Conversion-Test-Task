@@ -1,11 +1,10 @@
 "# Mesh-Conversion-Test-Task" 
 
+# Clone the Repository
+git clone https://github.com/xrohac/Mesh-Conversion-Test-Task.git
+
 # Install dependencies
 pip install -r requirements.txt
-
-
-# Convert the .obj file to .stl format
-convert_obj_to_stl('path/to/input.obj', 'path/to/output.stl')
 
 # Convert the .obj file to .stl format using cli
 python cli.py convert <path_to_input_obj> <path_to_output_stl>
